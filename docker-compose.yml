@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+#  bot:
+#    build: .
+#    container_name: mybot
+#    command: python bot/main.py
+#    volumes:
+#      - ./voices:/app/voices
+#    environment:
+#      - REDIS_HOST=redis
+#    depends_on:
+#      - redis
+
+  redis:
+    image: redis:alpine
+    container_name: myredis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"

@@ -1,0 +1,8 @@
+aiogram==3.17.0
+python-dotenv==1.0.1
+redis==5.2.1
+fastapi~=0.115.8
+Pyrogram~=2.0.106
+requests~=2.32.3
+openai-whisper~=20240930
+deep-translator==1.11.4
